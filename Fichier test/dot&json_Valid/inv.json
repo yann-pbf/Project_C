@@ -1,0 +1,4 @@
+{signal: [
+  {name: 'IN', wave: '1...0...'},
+  {name: 'IN_b', wave: '0...1...'},
+]}

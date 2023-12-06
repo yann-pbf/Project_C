@@ -1,0 +1,8 @@
+digraph AND2 {
+    I1 [label = "INPUT"]; //Tab au lieu d'espace
+    I2 [label = "INPUT"];
+    GATE [label = "AND2" ];
+    O [label = "OUTPUT"];
+    I1 ->   GATE -> O; //Tab au lieu d'espace
+    I2 -> GATE;
+}

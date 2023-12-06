@@ -1,0 +1,8 @@
+graph AND2 { //Graph au lieu de digraph
+    I1 [label = "INPUT"];
+    I2 [label = "INPUT"];
+    GATE [label = "AND2" ];
+    O [label = "OUTPUT"];
+    I1 -> GATE -> O;
+    I2 -> GATE;
+}

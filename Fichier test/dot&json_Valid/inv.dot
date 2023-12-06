@@ -1,0 +1,6 @@
+digraph NOT {
+    I1 [label = "INPUT"];
+    GATE [label = "NOT"];
+    O [label = "not_INPUT"];
+    I1 -> GATE -> O;
+}

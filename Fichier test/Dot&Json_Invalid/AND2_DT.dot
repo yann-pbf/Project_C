@@ -1,0 +1,8 @@
+digraph AND2 {
+    I1 [label = "INPUT"];
+    I2 [label = "INPUT"];
+    GATE [label = "AND2" ];
+    O [label = "OUTPUT"];
+    I1 -- GATE -> O; // Double trait à la place de la flèche
+    I2 -> GATE;
+}

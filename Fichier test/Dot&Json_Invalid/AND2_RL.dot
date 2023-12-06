@@ -1,0 +1,9 @@
+digraph AND2 {
+    I1 [label = "INPUT"];  
+    I2 //retour à la ligne
+    [label = "INPUT"];
+    GATE [label = "AND2" ];
+    O [label = "OUTPUT"];
+    I1 -> GATE -> O;
+    I2 -> GATE;
+}
